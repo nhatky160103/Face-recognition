@@ -1,6 +1,0 @@
-.venv/
-*.pkl
-*.npy
-*.pth
-*.pt
-data/

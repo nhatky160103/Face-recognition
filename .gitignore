@@ -1,9 +1,6 @@
-*.csv
-*xlsx
-*.db
-metadata.csv.zip
 .venv/
-Face_recognition/data/
+*.pkl
+*.npy
 *.pth
 *.pt
-Face_recognition/testdata/
+data/

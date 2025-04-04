@@ -1,14 +1,3 @@
-# 2024-HN-KYDN
-# Data science course assignment
-
-Do assignment from this course: [Data science for begginer](https://github.com/microsoft/Data-Science-For-Beginners)
-
-Include 4 part:
-### +  Introduction
-### + Working with data
-### + Data visualization
-### + Datascience life cycle
-
 # Face Recognition with Anti-Spoofing
 
 ## Project Description
@@ -24,12 +13,13 @@ Use model architecture from this repo: [inceptionresnetV1](https://github.com/ti
 . This model embeds a image to vector with shape 512.
 
 - **Anti-Spoofing**: Incorporates a liveness detection model to prevent fake faces (e.g., photos or videos) from being recognized as real. [Fasnet](https://github.com/minivision-ai/Silent-Face-Anti-Spoofing/blob/master/src/model_lib/MiniFASNet.py)
-- **GUI**: Provides an intuitive user interface for infer in camera and can create embedding and image aguementatio, use customtkinter
+- **GUI**: Provides an intuitive user interface for infer in camera and can create embedding and image augmentation, use customtkinter
 - **Logging**: Logs all activities and errors for debugging and monitoring.(excel file)
 ## System pipeline
 The system is operated according to the following flow:
 
-![1733369903094](/Face_recognition/image/README/pipeline.jpg)
+![1733369903094](image/README/pipeline.jpg)
+
 ## Installation
 
 ### Prerequisites
@@ -77,7 +67,7 @@ The system is operated according to the following flow:
     python -m venv .venv
     .venv\Scripts\activate
     pip install requirement.txt
-  
+   
     ```
 3. Create embedding
     + Select data gallery, create embedding, and save to data/data_source
@@ -143,20 +133,16 @@ Face_recognition/
 └── README.md                    # Project documentation    
 ```
 
-
 ## Result:
 
 System accuracy: 0.9 %
 test in VietNam face celeb: [dataset](https://www.flickr.com/photos/148530340@N06/47824829632/in/dateposted-public/)
 
 Home
-![alt text](Face_recognition/image/README/image.png)
+![alt text](image/README/image.png)
 
 Recogn with real person:
-
-https://github.com/user-attachments/assets/c23e7a14-9da8-4dcc-b54f-7b99ff32a8cd
+<video controls src="image/README/FACE RECOGNITION 2024-12-05 15-17-46 - Trim.mp4" title="Title"></video>
 
 Recogn with spoof person:
-
-https://github.com/user-attachments/assets/859c6840-fbce-47f7-aadc-f52bb411916c
-
+<video controls src="image/README/FACE RECOGNITION 2024-12-05 15-28-14 - Trim.mp4" title="Title"></video>
