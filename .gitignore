@@ -1,0 +1,9 @@
+*.csv
+*xlsx
+*.db
+metadata.csv.zip
+.venv/
+Face_recognition/data/
+*.pth
+*.pt
+Face_recognition/testdata/
