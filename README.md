@@ -142,7 +142,9 @@ Home
 ![alt text](image/README/image.png)
 
 Recogn with real person:\
-<video controls src="image/README/real_infer.mp4" title="Title"></video>
+<video src="https://github.com/user-attachments/assets/722724d1-afa3-4173-8050-09ed19733e3a" controls></video>
+
+
 
 Recogn with spoof person:\
-<video controls src="image/README/spoof_infer.mp4" title="Title"></video>
+<video src="https://github.com/user-attachments/assets/9ec0d287-827c-487d-8df8-537efe4355d4"  controls></video>
