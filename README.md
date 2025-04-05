@@ -141,8 +141,8 @@ test in VietNam face celeb: [dataset](https://www.flickr.com/photos/148530340@N0
 Home
 ![alt text](image/README/image.png)
 
-Recogn with real person:
+Recogn with real person:\
 <video controls src="image/README/FACE RECOGNITION 2024-12-05 15-17-46 - Trim.mp4" title="Title"></video>
 
-Recogn with spoof person:
+Recogn with spoof person:\
 <video controls src="image/README/FACE RECOGNITION 2024-12-05 15-28-14 - Trim.mp4" title="Title"></video>
